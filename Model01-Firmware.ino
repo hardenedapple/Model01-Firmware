@@ -103,33 +103,33 @@ enum { DVORAK, FUNCTION }; // layers
 KEYMAPS(
 
   [DVORAK] = KEYMAP_STACKED
-  (Key_LeftGui            , Key_1        , Key_2         , Key_3           , Key_4 , Key_5 , Key_Tab ,
-   Key_Equals   , Key_Comma    , Key_Period    , Key_Minus , Key_P , Key_Y , Key_Escape ,
-   Key_Semicolon      , Key_A        , Key_O         , Key_E     , Key_U , Key_I ,
-   Key_Backslash   , Key_Quote    , Key_Q         , Key_J     , Key_K , Key_X , Key_LeftAlt    ,
-   Key_LeftControl , Key_Spacebar , Key_LeftShift , Key_Enter ,
+  (Key_LeftGui            , Key_1          , Key_2         , Key_3            , Key_4 , Key_5 , Key_Tab          ,
+   Key_Equals             , Key_Comma      , Key_Period    , Key_Minus        , Key_P , Key_Y , Key_Escape       ,
+   Key_Semicolon          , Key_A          , Key_O         , Key_E            , Key_U , Key_I ,
+   Key_Backslash          , Key_Quote      , Key_Q         , Key_J            , Key_K , Key_X , Key_LeftAlt      ,
+   Key_LeftControl        , Key_Spacebar   , Key_LeftShift , Key_Enter        ,
    ShiftToLayer(FUNCTION) ,
 
-   Key_Tab       , Key_6          , Key_7        , Key_8            , Key_9 , Key_0 , Key_LeftGui      ,
-   Key_Escape    , Key_F          , Key_G        , Key_C            , Key_R , Key_L , Key_Slash        ,
-                   Key_D          , Key_H        , Key_T            , Key_N , Key_S , Key_LeftBracket  ,
-   Key_LeftAlt   , Key_B          , Key_M        , Key_W            , Key_V , Key_Z , Key_RightBracket ,
-   Key_Enter     , Key_RightShift , Key_Spacebar , Key_RightControl ,
+   Key_Tab                , Key_6          , Key_7         , Key_8            , Key_9 , Key_0 , Key_LeftGui      ,
+   Key_Escape             , Key_F          , Key_G         , Key_C            , Key_R , Key_L , Key_Slash        ,
+                            Key_D          , Key_H         , Key_T            , Key_N , Key_S , Key_LeftBracket  ,
+   Key_LeftAlt            , Key_B          , Key_M         , Key_W            , Key_V , Key_Z , Key_RightBracket ,
+   Key_Enter              , Key_RightShift , Key_Spacebar  , Key_RightControl ,
    ShiftToLayer(FUNCTION)) ,
 
   [FUNCTION] =  KEYMAP_STACKED
- (XXX               , Key_F1        , Key_F2                   , Key_F3                   , Key_F4         , Key_F5        , Key_LEDEffectNext ,
-  Key_F12           , ___           , Key_Delete               , Key_Backspace            , Key_Backtick   , ___           , ___               ,
-  Key_PcApplication , Key_Home      , Key_PageDown             , Key_PageUp               , Key_End        , Key_Tab       ,
-  ___               , ___           , Key_CapsLock             , Key_PrintScreen          , Key_Insert     , ___           , ___               ,
-  ___               , ___           , ___                      , ___                      ,
+ (XXX               , Key_F1        , Key_F2        , Key_F3          , Key_F4         , Key_F5  , Key_LEDEffectNext ,
+  Key_F12           , ___           , Key_Delete    , Key_Backspace   , Key_Backtick   , ___     , ___               ,
+  Key_PcApplication , Key_Home      , Key_PageUp    , Key_PageDown    , Key_End        , ___     ,
+  ___               , ___           , Key_CapsLock  , Key_PrintScreen , Key_Insert     , ___     , ___               ,
+  ___               , ___           , ___           , ___             ,
   ___               ,
 
-  ___               , Key_F6        , Key_F7                   , Key_F8                   , Key_F9         , Key_F10       , Key_F11           ,
-  ___               ,  ___          , Key_Backtick             , Key_Backspace            , Key_Delete     ,  ___          , ___               ,
-  Key_Tab           , Key_LeftArrow , Key_DownArrow            , Key_UpArrow              , Key_RightArrow , ___           ,
-  ___               , Consumer_Mute , Consumer_VolumeDecrement , Consumer_VolumeIncrement , Key_CapsLock   , Key_Backslash , Key_Pipe          ,
-  ___               , ___           , ___                      , ___                      ,
+  ___               , Key_F6        , Key_F7        , Key_F8          , Key_F9         , Key_F10 , Key_F11           ,
+  ___               , ___           , Key_Backtick  , Key_Backspace   , Key_Delete     , ___     , ___               ,
+  ___               , Key_LeftArrow , Key_DownArrow , Key_UpArrow     , Key_RightArrow , ___     ,
+  ___               , Consumer_Mute , Key_Insert    , Key_PrintScreen , Key_CapsLock   , ___     , ___               ,
+  ___               , ___           , ___           , ___             ,
   ___)
 
 	) // KEYMAPS(
