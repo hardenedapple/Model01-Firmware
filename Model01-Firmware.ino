@@ -118,17 +118,17 @@ KEYMAPS(
    ShiftToLayer(FUNCTION)) ,
 
   [FUNCTION] =  KEYMAP_STACKED
- (XXX               , Key_F1        , Key_F2        , Key_F3          , Key_F4         , Key_F5  , Key_LEDEffectNext ,
-  Key_F12           , ___           , Key_Delete    , Key_Backspace   , Key_Backtick   , ___     , ___               ,
-  Key_PcApplication , Key_Home      , Key_PageUp    , Key_PageDown    , Key_End        , ___     ,
-  ___               , ___           , Key_CapsLock  , Key_PrintScreen , Key_Insert     , ___     , ___               ,
+ (XXX               , Key_F1        , Key_F2        , Key_F3          , Key_F4       , Key_F5         , Key_LEDEffectNext ,
+  Key_F12           , ___           , Key_Delete    , Key_Backspace   , Key_Backtick , ___            , ___               ,
+  Key_PcApplication , Key_Home      , Key_PageUp    , Key_PageDown    , Key_End      , ___            ,
+  ___               , ___           , Key_CapsLock  , Key_PrintScreen , Key_Insert   , ___            , ___               ,
   ___               , ___           , ___           , ___             ,
   ___               ,
 
-  ___               , Key_F6        , Key_F7        , Key_F8          , Key_F9         , Key_F10 , Key_F11           ,
-  ___               , ___           , Key_Backtick  , Key_Backspace   , Key_Delete     , ___     , ___               ,
-  ___               , Key_LeftArrow , Key_DownArrow , Key_UpArrow     , Key_RightArrow , ___     ,
-  ___               , Consumer_Mute , Key_Insert    , Key_PrintScreen , Key_CapsLock   , ___     , ___               ,
+  ___               , Key_F6        , Key_F7        , Key_F8          , Key_F9       , Key_F10        , Key_F11           ,
+  ___               , ___           , Key_Backtick  , Key_Backspace   , Key_Delete   , ___            , ___               ,
+                      ___           , Key_LeftArrow , Key_DownArrow   , Key_UpArrow  , Key_RightArrow , ___               ,
+  ___               , Consumer_Mute , Key_Insert    , Key_PrintScreen , Key_CapsLock , ___            , ___               ,
   ___               , ___           , ___           , ___             ,
   ___)
 
